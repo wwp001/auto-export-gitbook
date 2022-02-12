@@ -33,7 +33,7 @@ jobs:
       env:
         TOKEN: ${{ secrets.TOKEN }}
         REF: github.com/${{github.repository}}
-        MYEMAIL: 1823636309@qq.com                  # ！！记得修改为自己邮箱
+        MYEMAIL: 370119227@qq.com                  # ！！记得修改为自己邮箱
         MYNAME: ${{github.repository_owner}}          
       run: |
         cd _book
